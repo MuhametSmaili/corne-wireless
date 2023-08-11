@@ -51,10 +51,10 @@
 
             label = "Lower";
             bindings = <
-   &kp TAB        &kp N1        &kp N2        &kp N3        &kp N4        &kp N5      &kp N6    &kp N7    &kp N8     &kp N9  &kp N0           &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN    &kp UP  &kp RIGHT  &trans    &kp C_VOLUME_UP
- &kp LSHFT        &trans        &trans        &trans        &trans        &trans      &trans    &trans    &trans     &trans  &trans  &kp C_VOLUME_DOWN
-                                            &kp LGUI        &trans     &kp SPACE     &kp RET    &trans  &kp RALT
+  &kp TAB           &kp N1  &kp N2      &kp N3       &kp N4      &kp N5      &kp N6         &kp N7          &kp N8     &kp N9            &kp N0           &kp BSPC
+  &kp ESC  &kp PRINTSCREEN  &trans      &trans       &trans  &kp DELETE    &kp LEFT       &kp DOWN          &kp UP  &kp RIGHT  &kp K_PLAY_PAUSE    &kp C_VOLUME_UP
+&kp LSHFT       &caps_word  &trans  &kp C_NEXT  &kp PAGE_UP     &kp END    &kp HOME  &kp PAGE_DOWN  &kp C_PREVIOUS     &trans            &trans  &kp C_VOLUME_DOWN
+                                      &kp LGUI    &kp LCTRL      &trans     &kp RET          &mo 3        &kp RALT
             >;
         };
 
@@ -71,6 +71,15 @@
   &kp ESC    &trans  &kp GRAVE  &kp SLASH  &kp LEFT_BRACE  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp RIGHT_BRACE    &kp BACKSLASH       &kp MINUS   &kp PLUS  &kp PIPE
 &kp LSHFT    &trans     &trans     &trans          &trans            &trans               &trans           &trans           &trans  &kp UNDERSCORE  &kp EQUAL    &trans
                                  &kp LGUI       &kp LCTRL         &kp SPACE              &kp RET           &trans         &kp RALT
+            >;
+        };
+
+        function_layer {
+            bindings = <
+    &kp F1        &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11     &kp F12
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp C_BRIGHTNESS_INC  &trans  &trans   &trans   &trans  &sys_reset
+    &trans        &trans        &trans        &trans        &trans        &trans    &kp C_BRIGHTNESS_DEC  &trans  &trans   &trans   &trans      &trans
+                                              &trans        &trans        &trans                  &trans  &trans  &trans
             >;
         };
     };
