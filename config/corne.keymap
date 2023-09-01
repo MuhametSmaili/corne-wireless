@@ -14,7 +14,7 @@
 
         delete {
             bindings = <&kp DEL>;
-            key-positions = <31 32>;
+            key-positions = <15 16>;
         };
 
         caps_word {
