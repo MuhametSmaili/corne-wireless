@@ -7,6 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/outputs.h>
 
 / {
@@ -85,7 +86,7 @@
             bindings = <
 &kp TILDE         &kp EXCL  &kp AT     &kp HASH      &kp DLLR        &kp PRCNT           &kp CARET          &kp AMPS         &kp KP_MULTIPLY  &kp LPAR        &kp RPAR   &kp BSPC
 &mt LCTRL ESCAPE  &trans    &kp GRAVE  &kp SLASH     &kp LEFT_BRACE  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp BACKSLASH    &kp MINUS       &kp EQUAL  &kp PIPE
-&kp LSHFT         &trans    &trans     &trans        &trans          &trans              &kp EQUAL          &trans           &trans           &kp UNDERSCORE  &kp PLUS   &kp RIGHT_SHIFT
+&kp LSHFT         &trans    &trans     &mkp MB5      &mkp MCLK       &mkp LCLK           &mkp RCLK          &mkp MCLK        &mkp MB4         &kp UNDERSCORE  &kp PLUS   &kp RIGHT_SHIFT
                                        &kp LEFT_ALT  &trans          &mo 3               &mt LGUI ENTER     &kp RCTRL        &kp RALT
             >;
         };
