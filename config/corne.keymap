@@ -59,8 +59,28 @@
         };
 
         scroll-down {
-            bindings = <&kp C_AC_SCROLL_DOWN>;
+            bindings = <&kp K_SCROLL_DOWN>;
             key-positions = <31 34>;
+        };
+
+        left_bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <17 37>;
+        };
+
+        left_brace {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <16 37>;
+        };
+
+        right_bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <18 40>;
+        };
+
+        right_brace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <19 40>;
         };
     };
 
