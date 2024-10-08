@@ -64,10 +64,9 @@
             bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <150>;
-            flavor = "balanced";
-            hold-trigger-on-release;
+            tapping-term-ms = <230>;
+            quick-tap-ms = <125>;
+            flavor = "hold-preferred";
             hold-trigger-key-positions = <1 2 3 4 5 6 7 8 9 10 18 19 20 21 40>;
         };
     };
