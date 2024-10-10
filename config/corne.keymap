@@ -67,7 +67,7 @@
             tapping-term-ms = <230>;
             quick-tap-ms = <125>;
             flavor = "hold-preferred";
-            hold-trigger-key-positions = <1 2 3 4 5 6 7 8 9 10 18 19 20 21 40>;
+            hold-trigger-key-positions = <1 2 3 4 5 6 7 8 9 10 18 19 20 21 40 13>;
         };
 
         holdPriority: holdPriority {
@@ -156,7 +156,7 @@
 
         enter {
             bindings = <&kp ENTER>;
-            key-positions = <1 2 3 4 5>;
+            key-positions = <1 2 3 4>;
             layers = <0>;
         };
     };
