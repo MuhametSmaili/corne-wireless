@@ -153,6 +153,12 @@
             bindings = <&kp ESC>;
             key-positions = <19 20>;
         };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <1 2 3 4 5>;
+            layers = <0>;
+        };
     };
 
     keymap {
