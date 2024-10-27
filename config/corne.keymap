@@ -16,6 +16,8 @@
     flavor = "balanced";
 };
 
+&caps_word { continue-list = <UNDERSCORE BACKSPACE DELETE SPACE MINUS>; };
+
 / {
     behaviors {
         hmr: hmr {
@@ -116,6 +118,11 @@
         equal {
             bindings = <&kp EQUAL>;
             key-positions = <8 9>;
+        };
+
+        caps_word {
+            bindings = <&caps_word>;
+            key-positions = <15 16 19 20>;
         };
     };
 
